@@ -1,0 +1,86 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #c2c7c791;
+}
+#container {
+  margin-left: 12rem;
+  padding-left: 1rem;
+  width: 60%;
+  background-color: #c2c7c791;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.navbar-icons {
+  padding-right: 1.5rem;
+}
+
+.navbar {
+  padding-left: 8rem;
+}
+#sidebar {
+  background-color: #0a1d38;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  height: 30.5rem;
+}
+#top {
+  margin-top: 2.5em;
+}
+.side-nav li {
+  color: #fff;
+}
+#dropdownUser1 {
+  border: 1px solid orangered;
+  width: 170px;
+  height: 60px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top: -1em;
+}
+
+.side-dwn {
+  padding-left: 1rem;
+  border: px solid whitesmoke;
+  background-color: orangered;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-size: 13px;
+  padding-top: 13px;
+  font-weight: 700;
+  margin-top: 3.8em;
+  margin-left: 5px;
+}
+.first-input {
+  width: 45%;
+  height: 9%;
+  border: none;
+}
+
+.nav a {
+  font-size: 15px;
+}
+#card-body {
+  display: block;
+  text-align: center;
+  
+  height: 32rem;
+  margin-left: 5rem;
+  width: 50rem;
+  background-color: white;
+  box-sizing: border-box;
+  
+}
+.card-button{
+    background-color: rgb(255, 69, 0);
+    padding: 6px 46px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
