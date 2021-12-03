@@ -24,7 +24,7 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: white;
-    height: 30.7rem;
+    height: 30.65rem;
   }
   #top {
     margin-top: 2.5em;
@@ -53,6 +53,7 @@ body {
     font-size: 13px;
     padding-top: 10px;
     font-weight: 700;
+    padding-right: 0.7rem;
   }
   .first-input {
     width: 55%;

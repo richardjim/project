@@ -23,7 +23,7 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
-  height: 30.8rem;
+  height: 30.67rem;
   margin-top: -.5rem;
 }
 #top {
@@ -52,6 +52,7 @@ body {
   border-top-right-radius: 12px;
   font-size: 13px;
   padding-top: 10px;
+  padding-right: .7rem;
   font-weight: 700;
 }
 
@@ -71,23 +72,24 @@ body {
   position: relative;
   left: 10%;
   margin-top: 8rem;
-
   background-color: lavender;
-  height: 24%;
+  height: 27%;
   width: 20%;
-  border: 1px solid gray;
-  border-radius: 15px;
-}
-.cardbtn .fa {
+  border: 1.5px solid gray;
+  border-radius: 13px;
   color: lavender;
+}
+.card-img .fa {
   border: 1px solid gray;
   border-radius: 17px;
   font-size: 10px;
   background-color: lightgray;
   position: relative;
-  margin-right: 5rem;
-  margin-top: 0.5rem;
+  margin-right: 6rem;
+  margin-top: 0.2rem;
+  
 }
+
 .card-bg {
   width: 35%;
   height: 20%;
@@ -100,13 +102,14 @@ body {
   justify-content: space-between;
   width: 80%;
   margin-left: 1rem;
+  margin-top: -2.3rem;
 }
 #offcanvasWithBothOptions {
-  margin-top: 5rem;
+  margin-top: 1rem;
   width: 18%;
   display: block;
   text-align: left;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: #00000059 0px 5px 15px;
   height: 120%;
   border-radius: 15px;
   background-color: #fff;
@@ -267,11 +270,11 @@ section {
 
 .sidebar-content{
 position: absolute;
-margin-top: -34rem;
+top: .2em;
 width: 230px;
 height: 450px;
 border-radius: 25px;
-margin-left: 14.4rem;
+margin-left: 15.4rem;
 
 }
 
@@ -283,6 +286,9 @@ margin-left: 14.4rem;
   height: 21em;
   width: 21em;
   border-radius: 30px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
 }
 
 .format{
@@ -302,3 +308,12 @@ margin-left: 14.4rem;
   color: #000;
 }
 
+.modal-content{
+  height: 2em;
+}
+
+.card-img:hover  {
+  border: 2px solid orangered;
+ color: orangered;
+
+}
