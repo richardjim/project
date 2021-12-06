@@ -138,6 +138,7 @@ h4 {
   height: 5em;
   background-color: lavender;
   border: none;
+  width: 13rem;
 }
 .card-title{
   display: block;
