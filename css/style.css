@@ -10,7 +10,6 @@ body {
   width: 60%;
   background-color: #c2c7c791;
   border-radius: 10px;
-  box-sizing: border-box;
 }
 .navbar-icons {
   padding-right: 1.5rem;
@@ -24,26 +23,29 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
-  height: 30.421rem;
+  height: 30.67rem;
+  margin-top: -.5rem;
 }
+
 #top {
   margin-top: 2.5em;
+ 
 }
 .side-nav li {
   color: #fff;
 }
 #dropdownUser1 {
   border: 1px solid orangered;
-  width: 170px;
+  width: 182px;
   height: 60px;
   background-color: whitesmoke;
-  border-radius: 20px;
+  border-radius: 13px;
   margin-top: -1em;
+  margin-left: .5rem;
+  
 }
-
 .side-dwn {
   padding-left: 1rem;
-  border: px solid whitesmoke;
   background-color: orangered;
   width: 150px;
   height: 40px;
@@ -52,11 +54,9 @@ body {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   font-size: 13px;
-  padding-top: 11px;
-  padding-right: 12px;
+  padding-top: 10px;
   font-weight: 700;
-  margin-top: 3.8em;
-  margin-left: 5px;
+  padding-right: 0.7rem;
 }
 .first-input {
   width: 45%;
@@ -73,7 +73,7 @@ body {
   
   height: 32rem;
   margin-left: 5rem;
-  width: 50rem;
+  width: 58.6rem;
   background-color: white;
   box-sizing: border-box;
   
