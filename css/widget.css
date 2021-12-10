@@ -287,12 +287,14 @@ margin-left: 15.2rem;
 .output-text{
   position: absolute;
   margin-left: 40rem;
-  margin-left: 40rem;
+  margin-right: 40rem;
 
   top: 25%;
   background-color: #fffdf8;
   height: 21em;
-  max-width: 21em;
+  box-sizing: content-box;
+  min-width: 21em;
+  max-width: fit-content;
   border-radius: 30px;
   font-weight: normal;
   font-style: normal;
