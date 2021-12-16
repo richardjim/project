@@ -3,6 +3,8 @@ body {
   margin: 0px;
   box-sizing: border-box;
   background-color: #ecf3f3e1;
+  overflow: scroll;
+  
 }
 #container {
   margin-left: 12rem;
@@ -108,33 +110,70 @@ body {
   margin-left: 1rem;
   margin-top: -2.3rem;
 }
+
+
+
+
+/* ::placeholder{
+  font-size: 18px;
+} */
 h4 {
   font-size: 12px;
   font-weight: 700;
   margin-top: 1em;
 }
+/* .sectionBar{
+  margin-top: -2rem;
+  
+ width: 70%;
+  height: 150%;
+  display: block;
+  text-align: left;
+  
+  border-radius: 5px;
+  background-color: none;
+  
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.offcanvas-body {
+  margin-top: -2rem;
+  
+width: 80%;
+  height: 100%;
+  display: block;
+  text-align: left;
+  
+  border-radius: 5px;
+  background-color: none;
+  /* border: 1px solid lavender ; 
+  /* overflow-y: scroll; */
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+*/
 .offcanvas-start{
-  max-width: none ;
- width: 200%;
- }
- 
- #offcanvasWithBothOptions {
- width: 22%;
- }
- 
- .offcanvas-body {
-   margin-top: -2rem;
-   height: 200%;
-   width: 100%;
-   display: block;
-   text-align: left;
-   scrollbar-width: thin
-   ;
-   background-color: none;
-   
- }
- 
- .facebook-input {
+ max-width: none ;
+width: 200%;
+}
+
+#offcanvasWithBothOptions {
+width: 22%;
+}
+
+.offcanvas-body {
+  margin-top: -2rem;
+  height: 200%;
+  width: 100%;
+  display: block;
+  text-align: left;
+  scrollbar-width: thin
+  ;
+  background-color: none;
+  
+}
+
+.facebook-input {
   display: block;
   border: none;
   height: 2.5em;
@@ -278,34 +317,41 @@ section {
 }
 
 .sidebar-content{
-  position: absolute;
-  top: .1em;
-  height: 450px;
-  border-radius: 25px;
-  margin-left: 18.2rem;
-  z-index: -1;
-  }
-
-.output-text{
+position: absolute;
+top: .1em;
+height: 450px;
+border-radius: 25px;
+margin-left: 18.2rem;
+z-index: -1;
+}
+#pr4{
   position: absolute;
   margin-left: 40rem;
   margin-right: 40rem;
-  
-
   top: 25%;
+  background-color: #fffdf8;
+  height: 23em;
+  overflow:visible;
+  width: 26em;
+
+  border-radius: 10px;
+}
+.output-text{
+  position: absolute;
+  margin-left: 40rem;
+  margin-right: 25rem;
+  top: 4%;
+  right: -93%;
   background-color: #fffdf8;
   height: 21em;
   width: 24em;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 20px;
   font-weight: normal;
   font-style: normal;
   text-align: center;
 }
-.format:hover{
-  background-color: orangered;
-  color: #fff;
-}
+
 .format{
   padding: 3px 8px;
   border: .5px solid whitesmoke;
@@ -313,7 +359,10 @@ section {
   border-radius: 5px;
   margin-left: .6rem;
 }
-
+.format:hover{
+  background-color: orangered;
+  color: #fff;
+}
 .format i{
   font-weight: lighter;
   font-size: 12px;
