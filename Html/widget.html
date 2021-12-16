@@ -175,7 +175,7 @@
                     id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header">
                         <button type="button"
-                            style="font-size: 8px; margin-top: em; border:1px solid gray; position: relative; margin-left: 12rem; "
+                            style="font-size: 8px; margin-top: em; border:1px solid gray; position: relative; margin-left: 15rem; "
                             class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
@@ -190,7 +190,7 @@
 
                         </h4>
                         <div id="collapse1"  >
-                            <input id="inputtextarea" class=" facebook-input" 
+                            <input id="inputtextarea" minlength="10" maxlength="35" class=" facebook-input" 
                                 placeholder=" Would you recommend us...">
                                 <!-- <div id="editor">
                                     <textarea :value="input" @input="update"></textarea>
@@ -211,7 +211,7 @@
                                 </div>
                             </section>
                         </h4>
-                        <textarea class="Description-input  " id="collapse2" placeholder=" present bansit resus sed transeque
+                        <textarea class="Description-input  " id="collapse2" rows="5" cols="30" minlength="10" maxlength="60" placeholder=" present bansit resus sed transeque
                             present bansit resus sed transeque
                             resus ansit resus sed transeque
                             
@@ -227,9 +227,9 @@
                             </section></a>
                         </h4>
                         <input class="facebook-input mb-3" id="collapse3" placeholder=" Would you recommend us">
-                        <input class="facebook-input " id="collapse3" placeholder=" Would you recommend us">
+                        <input class="facebook-input mb-4" id="collapse3" placeholder=" Would you recommend us">
 
-                        <a href="#" class="link-2 mb-4" style="font-size: 13px; color: indianred;"> Where do i find this
+                        <a href="#" class="link-2 mb-4" style="font-size: 15px; color: indianred;"> Where do i find this
                             URL</a>
 
                         <h4 class="size">Yelp Review Button <section data-bs-toggle="collapse" href="#collapse4"
@@ -243,9 +243,9 @@
 
                         <input class="facebook-input  mb-3" id="collapse4" placeholder=" Would you recommend us">
 
-                        <input class="facebook-input" id="collapse4" placeholder=" Would you recommend us">
+                        <input class="facebook-input mb-4" id="collapse4" placeholder=" Would you recommend us">
 
-                        <a href="#" class="link-2 mb-4" style="font-size: 13px; color: indianred;"> Where do i find this
+                        <a href="#" class="link-2 mb-4" style="font-size: 15px; color: indianred;"> Where do i find this
                             URL</a>
                         <h4>Facebook Review Button <section data-bs-toggle="collapse" href="#collapse5" role="button"
                                 aria-expanded="false" aria-controls="collapseExample" class="model-5">
@@ -258,8 +258,7 @@
                         <input class="facebook-input mb-3" id="collapse5" placeholder=" Would you recommend us">
                         <input class="facebook-input " id="collapse5" placeholder=" Would you recommend us">
                     </div>
-                    <div class="sidebar-content">
-
+                    <div class="sidebar-content" >
                         <ul class="list-group">
                             <li class="list-group-item ">
                                 <a href="#" class="nav-link px-0 align-middle">
@@ -343,7 +342,7 @@
                             <div v-html="Markdown"></div>
                           </div> -->
                         
-                        <div class="alignText" id="collapse2" style="margin-top: 1em;">
+                        <div class="alignText" id="collapse2" style="margin-top: 1em; overflow: hidden; width: fit-content;">
                             <p class="p-text">present bansit resus sed transeque
                             present bansit resus sed transeque
                             resus ansit resus sed transeque
